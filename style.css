@@ -10,6 +10,10 @@ text-decoration: none;
 list-style: none;
 cursor: pointer;
 }
+a{
+    text-decoration: none;
+    color: #7D7D7D;
+}
  header{
     margin-top: 71px;
     display: flex;
@@ -20,7 +24,7 @@ cursor: pointer;
     display: flex;
     gap: 100px;
 }
-.nav-list-item:hover{
+.nav-list-item:hover,a:hover{
     color: #03A9F4;
 }
 .photo-list-item{
@@ -58,7 +62,7 @@ color: #626262;
     display: flex;
     margin: 0 auto;
     flex-wrap: wrap;
-    max-width: 420px;
+    max-width: 906px;
     margin-top: 92px;
     justify-content: center;
     align-items: center;
@@ -77,13 +81,14 @@ color: #626262;
    body{
     margin: 0;
    }
+
    .btn-list{
     display: flex;
     justify-content: center;
     text-decoration: none;
     list-style: none;
-    
    }
+
    .btn{
     margin: 66px;
     display: flex;
